@@ -1,0 +1,40 @@
+/* Header  */
+
+.ul_navItems{
+    color: #eb5d1e;
+    }
+
+.get_strBtn{
+background-color: #eb5d1e;
+}
+
+.navbar-toggler-icon{
+background-image: url('../src/images/navbartogglebutton.jpg')
+}
+
+.carosual_bar{
+background-color:#fef8f5; 
+
+}
+
+.carosual_bar_row{
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-timing-function: ease;
+animation-play-state: running;
+}
+
+@keyframes example {
+from {left: 20%;}
+to {left:100%}
+}
+
+.upcoming-box{
+background-color: #a20401;
+}
+
+.upcoming-small-box{
+border: 3px dashed grey;
+}
